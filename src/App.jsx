@@ -1,7 +1,12 @@
+import Navbar from "./components/Header";
+import styles from "./style/style";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
+    </div>
+  );
 }
