@@ -11,8 +11,10 @@ function Navbar() {
       </a>
       <ul className=" hidden sm:flex justify-between items-center  gap-4  select-none">
         <li>Home </li>
-        <li>To do</li>
-        <li>Let's connect </li>
+
+        <a target="_blank" href="https://github.com/Soum-ik/InnovixionTech-Dec1">
+          Let's connect{" "}
+        </a>
       </ul>
       <button>Login</button>
     </div>
