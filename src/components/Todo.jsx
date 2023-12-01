@@ -1,8 +1,8 @@
 // ... (existing imports)
 import { TfiWrite } from "react-icons/tfi";
-import { FaAppleAlt, FaRegCircle } from "react-icons/fa";
+import { FaRegCircle } from "react-icons/fa";
 import { IoMdAddCircleOutline } from "react-icons/io";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styles from "../style/style";
 // import TaskAdd from "./TaskAdd";
 
@@ -33,7 +33,7 @@ function Todo() {
 
   function isComplete() {
     setIsClick(!isClick);
-    alert("Your task task is complete");
+    // alert("Your task task is complete");
   }
 
   return (
@@ -79,14 +79,6 @@ function Todo() {
                     {item}
                   </p>
                   <div className="flex gap-3">
-                    {/* <FaRegCircle
-                      className="rounded-full active:bg-green-700"
-                      color="green"
-                    />
-                    <FaRegCircle
-                      className="rounded-full active:bg-yellow-700"
-                      color="yellow"
-                    /> */}
                     <FaRegCircle
                       className="rounded-full active:bg-red-700"
                       color="red"
